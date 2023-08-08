@@ -6,9 +6,8 @@ from openvino.runtime import Core
 
 
 PRECISION = "FP16"
-MODEL_DIR = "models"
 MODEL_NAME = "colorization-v2"
-MODEL_PATH = f"{MODEL_DIR}/public/{MODEL_NAME}/{PRECISION}/{MODEL_NAME}.xml"
+MODEL_PATH = f"{MODEL_NAME}/{PRECISION}/{MODEL_NAME}.xml"
 DATA_DIR = "data"
 DEVICE = "CPU"
 
